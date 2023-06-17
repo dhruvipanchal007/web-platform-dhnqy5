@@ -232,30 +232,30 @@ section {
   border-left: 15px solid #fff;
   z-index: 100;
 }
-.why-us .why-box{
+.why-us .why-box {
   padding: 30px;
   background-color: #ce1212;
   color: #fff;
 }
-.why-us .why-box h3{
+.why-us .why-box h3 {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
 }
-.why-box p{
+.why-box p {
   margin-bottom: 30px;
 }
-.why-box .more-btn{
+.why-box .more-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.3);
   padding: 6px 30px 8px 30px;
   color: #fff;
   border-radius: 50px;
 }
-.why-box .more-btn i{
+.why-box .more-btn i {
   font-size: 14px;
 }
-.why-us .icon-box{
+.why-us .icon-box {
   text-align: center;
   background-color: #fff;
   padding: 30px 40px;
@@ -264,7 +264,7 @@ section {
   border: 1px solid rgba(55, 55, 63, 0.1);
   transition: 0.3s;
 }
-.why-us .icon-box i{
+.why-us .icon-box i {
   color: #ce1212;
   font-size: 32px;
   margin-bottom: 30px;
@@ -276,58 +276,60 @@ section {
   width: 64px;
   height: 64px;
 }
-.why-us .icon-box h4{
+.why-us .icon-box h4 {
   font-size: 20px;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-family: "inter",sans-serif;
+  font-family: 'inter', sans-serif;
 }
-.why-us .icon-box p{
+.why-us .icon-box p {
   font-size: 15px;
   color: #6c757d;
 }
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg) center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg)
+      center center;
   background-size: cover;
   padding: 100px 0;
 }
-@media(min-width:1365px){
-  .stats-counter{
+@media (min-width: 1365px) {
+  .stats-counter {
     background-attachment: fixed;
   }
 }
-.stats-counter .stats-items{
+.stats-counter .stats-items {
   padding: 30px;
 }
-.stats-counter .stats-items span{
+.stats-counter .stats-items span {
   font-size: 48px;
   display: block;
   color: #fff;
   font-weight: 700;
 }
-.stats-items p{
+.stats-items p {
   padding: 0;
   margin: 0;
-  font-family: "inter",sans-serif;
+  font-family: 'inter', sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.6);
 }
 /*menu page*/
-.menu .nav-tabs{
+.menu .nav-tabs {
   border: 0;
 }
-.menu .nav-link.active{
+.menu .nav-link.active {
   color: #ce1212;
   border-color: #ce1212;
 }
-.menu .nav-link h4{
+.menu .nav-link h4 {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
-  font-family: "inter",sans-serif;
+  font-family: 'inter', sans-serif;
 }
-.menu .nav-link{
+.menu .nav-link {
   margin: 0 10px;
   padding: 10px 5px;
   transition: 0.3s;
@@ -338,43 +340,130 @@ section {
   border: 0;
   border-bottom: 2px solid #b6b6bf;
 }
-.menu .tab-content .tab-header p{
-  font-size: 14px ;
+.menu .tab-content .tab-header p {
+  font-size: 14px;
   text-transform: uppercase;
   color: #676775;
   margin-bottom: 0;
-
 }
-.menu .tab-header{
+.menu .tab-header {
   padding: 30px 0;
 }
-.tab-header h3{
+.tab-header h3 {
   font-size: 36px;
   font-weight: 600;
   color: #ce1212;
 }
-.menu .tab-content .menu-item h4{
+.menu .tab-content .menu-item h4 {
   font-size: 22px;
   font-weight: 500;
   color: #37373f;
-  font-family: "inter",sans-serif;
+  font-family: 'inter', sans-serif;
   margin-bottom: 5px;
 }
-.menu-img{
+.menu-img {
   padding: 0 60px;
   margin-bottom: 15px;
 }
-.menu .tab-content .menu-item{
+.menu .tab-content .menu-item {
   text-align-last: center;
 }
-.menu-item .ingredients{
-  font-family: "inter",sans-serif;
-  color:#8d8d9b;
+.menu-item .ingredients {
+  font-family: 'inter', sans-serif;
+  color: #8d8d9b;
   margin-bottom: 5px;
 }
-.menu-item .price{
+.menu-item .price {
   font-size: 24px;
   font-weight: 700;
   color: #ce1212;
 }
- 
+.testimonials-content {
+  border-left: 3px solid #ce1212;
+  padding: 30px;
+}
+.testimonials-content p {
+  font-style: italic;
+}
+.testimonials-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #212529;
+  font-family: 'inter', sans-serif;
+}
+.quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+  color: #ce1212;
+  font-size: 26px;
+  line-height: 0;
+}
+.quote-icon-right {
+  color: #ce1212;
+  font-size: 26px;
+  line-height: 0;
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+  transform: scale(-1, -1);
+}
+.testimonials-content h4 {
+  font-size: 14px;
+  color: #6c757d;
+  margin: 0 0 10px 0;
+  font-family: 'inter', sans-serif;
+}
+.stars i {
+  color: #ffc107;
+  margin: 0 1px;
+}
+.testimonials-img {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+
+.image {
+  background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-1.jpg);
+  background-size: cover;
+  width: 423.667px;
+  height: 600px;
+  padding: 30px;
+}
+.events-item h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+  position: relative;
+}
+.events-item .price{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  position: relative;
+  border-bottom: 2px solid #ce1212;
+}
+.events-item .description{
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+}
+.img-1{
+  background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-2.jpg);
+  background-size: cover;
+  width: 423.667px;
+  height: 600px;
+  padding: 30px;
+}
+.img-2{
+  background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-3.jpg);
+  background-size: cover;
+  width: 423.667px;
+  height: 600px;
+  padding: 30px;
+}
