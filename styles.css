@@ -467,3 +467,47 @@ section {
   height: 600px;
   padding: 30px;
 }
+.chef-member{
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+  transition: 0.3s;
+}
+
+.chef-member .member-img{
+  position: relative;
+  overflow: hidden;
+}
+.chef-member .social{
+  position: absolute;
+  right: -100%;
+  top: 30px;
+  opacity: 0;
+  border-radius: 4px;
+  transition: 0.4s;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 2;
+}
+.chef-member .social a{
+  transition: 0.3s;
+  color: rgba(55, 55, 63, 0.4);
+  margin: 15px 12px;
+  display: block;
+  line-height: 0;
+  text-align: center;
+}
+.member-img::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/team-shape.svg) no-repeat center bottom;
+  background-size: contain;
+  z-index: 1;
+
+}
+
