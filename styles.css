@@ -462,6 +462,7 @@ section {
   height: 600px;
   padding: 30px;
 }
+/*event page*/
 .events-item h3 {
   font-size: 24px;
   font-weight: 700;
@@ -496,6 +497,7 @@ section {
   height: 600px;
   padding: 30px;
 }
+/*chef */
 .chef-member {
   overflow: hidden;
   text-align: center;
@@ -618,6 +620,7 @@ button[type='submit'] {
   transition: all ease 0.3s;
   border-radius: 50px;
 }
+/* contact*/
 .contact .info-item {
   background-color: #f4f4f4;
   padding: 30px;
@@ -666,6 +669,8 @@ button[type='submit'] {
 .padding {
   padding: 40px;
 }
+
+/*footer*/
 .footer {
   font-size: 14px;
   background-color: #1f1f24;
