@@ -433,14 +433,14 @@ section {
   height: 600px;
   padding: 30px;
 }
-.events-item h3{
+.events-item h3 {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 5px;
   position: relative;
 }
-.events-item .price{
+.events-item .price {
   color: #fff;
   font-size: 32px;
   font-weight: 700;
@@ -448,26 +448,26 @@ section {
   position: relative;
   border-bottom: 2px solid #ce1212;
 }
-.events-item .description{
+.events-item .description {
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.9);
   position: relative;
 }
-.img-1{
+.img-1 {
   background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-2.jpg);
   background-size: cover;
   width: 423.667px;
   height: 600px;
   padding: 30px;
 }
-.img-2{
+.img-2 {
   background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-3.jpg);
   background-size: cover;
   width: 423.667px;
   height: 600px;
   padding: 30px;
 }
-.chef-member{
+.chef-member {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
@@ -476,11 +476,11 @@ section {
   transition: 0.3s;
 }
 
-.chef-member .member-img{
+.chef-member .member-img {
   position: relative;
   overflow: hidden;
 }
-.chef-member .social{
+.chef-member .social {
   position: absolute;
   right: -100%;
   top: 30px;
@@ -490,7 +490,7 @@ section {
   background: rgba(255, 255, 255, 0.3);
   z-index: 2;
 }
-.chef-member .social a{
+.chef-member .social a {
   transition: 0.3s;
   color: rgba(55, 55, 63, 0.4);
   margin: 15px 12px;
@@ -498,20 +498,20 @@ section {
   line-height: 0;
   text-align: center;
 }
-.member-img::after{
+.member-img::after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/team-shape.svg) no-repeat center bottom;
+  background: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/team-shape.svg)
+    no-repeat center bottom;
   background-size: contain;
   z-index: 1;
-
 }
 .member-info h4 {
-  font-weight:700 ;
+  font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #37373f;
@@ -522,48 +522,48 @@ section {
   font-weight: 400;
   color: rgba(33, 37, 41, 0.4);
 }
-.member-info p{
+.member-info p {
   font-style: italic;
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
-  color: rgba(33, 37, 41, 0.7)
+  color: rgba(33, 37, 41, 0.7);
 }
-.member-info{
+.member-info {
   padding: 10px 15px 20px 15px;
 }
-.pic{
+.pic {
   background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/reservation.jpg);
 }
-.book-a-table .reservation-img{
+.book-a-table .reservation-img {
   min-height: 500px;
   background-size: cover;
   background-position: center;
 }
-.reservation-form-bg{
+.reservation-form-bg {
   background-color: rgba(55, 55, 63, 0.04);
 }
-.row>* {
+.row > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-top: 24px
+  margin-top: 24px;
 }
 .book-a-table .text {
   padding: 12px 15px;
   border-radius: 0;
   font-size: 14px;
 }
-.book-a-table .loading{
+.loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
 }
-.error-message{
+.error-message {
   display: none;
   color: #fff;
   background-color: #df1529;
@@ -572,20 +572,108 @@ section {
   margin-bottom: 24px;
   font-weight: 600;
 }
-.sent-message{
+.sent-message {
   display: none;
   color: #fff;
-  background-color:#059652;
+  background-color: #059652;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
   font-weight: 600;
 }
-.book-a-table button[type=submit]{
+button[type='submit'] {
   background-color: #ce1212;
   border: 0;
   padding: 14px 60px;
   color: #fff;
   transition: all ease 0.3s;
   border-radius: 50px;
+}
+.contact .info-item {
+  background-color: #f4f4f4;
+  padding: 30px;
+  height: 100%;
+}
+.contact .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  font-size: 26px;
+  line-height: 0;
+  color: #fff;
+  background-color: #ce1212;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.info-item h3 {
+  font-size: 20px;
+  color: #6c757d;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+}
+.info-item p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.php-email-form {
+  width: 100%;
+  margin-top: 30px;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+}
+.form-group {
+  padding-bottom: 20px;
+}
+.php-email-form input {
+  height: 48px;
+  border-radius: 0;
+  font-size: 14px;
+  box-shadow: none;
+}
+.padding {
+  padding: 40px;
+}
+.footer {
+  font-size: 14px;
+  background-color: #1f1f24;
+  padding: 50px 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer .icon {
+  margin-right: 15px;
+  font-size: 24px;
+  line-height: 0;
+}
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 5px;
+  color: #fff;
+}
+.social-links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 10px;
+}
+.footer .copyright{
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer .credits{
+  text-align: center;
+  padding-top: 4px;
+  font-size: 13px;
 }
