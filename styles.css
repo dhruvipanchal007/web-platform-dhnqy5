@@ -18,6 +18,9 @@ a {
   color: #ce1212;
   text-decoration: none;
 }
+a:hover{
+  text-decoration: none;
+}
 .header .logo h1 {
   font-size: 28px;
   font-weight: 700;
@@ -62,13 +65,25 @@ a {
     visibility: visible;
     width: 100%;
   }
-  .navbar > ul > li > a::before {
-    content: '';
-    position: absolute;
-    height: 2px;
-    bottom: -6px;
-    background-color: #ce1212;
-    transition: all ease 0.3s;
+  
+  .navbar .active{
+    border-bottom: 2px solid #ce1212;
+  }
+  .navbar .dropdown-menu a{
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 600;
+  }
+  .dropdown-menu a:hover{
+    color: #ce1212;
+    background-color: #fff;
+  }
+  .navbar a:hover{
+    color: #000;
+    border-bottom: 2px solid #ce1212;
+
+
   }
 }
 .header .btn-book-a-table {
@@ -168,6 +183,7 @@ section {
 }
 .about .about-img {
   min-height: 500px;
+  background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/about.jpg);
 }
 .about .call-us {
   left: 10%;
@@ -177,6 +193,17 @@ section {
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
   padding: 20px;
   align-items: center;
+}
+.call-us h4{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-family: "open-sans",sans-serif;
+}
+.call-us p{
+  font-size: 28px;
+  color: #ce1212;
+  font-weight: 700;
 }
 .fst-italic {
   font-style: italic;
