@@ -31,7 +31,13 @@ a:hover{
 .header .logo h1 span {
   color: #ce1212;
 }
+.dropdown-item:hover{
+  color: #ce1212!important;
+}
 @media (min-width: 1280px) {
+  .navbar{
+    padding: 0;
+  }
   .navbar ul {
     margin: 0;
     padding: 0;
@@ -39,10 +45,10 @@ a:hover{
     list-style: none;
     align-items: center;
   }
-  .navbar > ul > li {
-    white-space: nowrap;
-    padding: 10px 0 10px 28px;
+  .nav-item .nav-link{
+    padding: 10px 0 10px 28px!important;
   }
+
   .navbar li {
     position: relative;
   }
@@ -66,9 +72,7 @@ a:hover{
     width: 100%;
   }
   
-  .navbar .active{
-    border-bottom: 2px solid #ce1212;
-  }
+ 
   .navbar .dropdown-menu a{
     padding: 10px 20px;
     font-size: 15px;
@@ -81,7 +85,7 @@ a:hover{
   }
   .navbar a:hover{
     color: #000;
-    border-bottom: 2px solid #ce1212;
+  
 
 
   }
